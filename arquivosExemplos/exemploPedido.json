@@ -1,0 +1,68 @@
+{
+    "orders": [
+        {
+            "2021430933846": {
+                "id": 933846,
+                "service_tax": "0.0",
+                "custom_bag": "0.0",
+                "delivery_tax": "10.0",
+                "total_taxes": "10.0",
+                "delivery_type": "delivery",
+                "delivery_tax_calculation_method": null,
+                "drivethru_method": "default",
+                "delivered_at": "01/05/2021",
+                "created_at": "30/04/2021 15:02:29",
+                "number_of_times_sent_to_pdv": 0,
+                "client": {
+                    "id": 933945,
+                    "phone_number": "85998034540",
+                    "second_phone_number": "",
+                    "email": "MERCADAPPTESTE@MERCADAPP.COM",
+                    "preferences": "NAO SEPARAR TESTE MERCADAPP",
+                    "state_registration": "",
+                    "exempted_from_state_registration": true,
+                    "name": "MERCADAPP TESTE",
+                    "cpf": "70657820008",
+                    "address": {
+                        "cep": "13900-262",
+                        "street": "RUA COMENDADOR GUIMARAE",
+                        "number": "500",
+                        "complement": "",
+                        "neighborhood": "CENTRO",
+                        "city": "AMPARO",
+                        "state": "SP",
+                        "reference_spot": ""
+                    }
+                },
+                "items": [
+                    {
+                        "market_system_code": "59876",
+                        "bar_code": "07898366000139",
+                        "amount": "00000000001.000",
+                        "price": "00000000006.010",
+                        "unitary_price_with_discount": "00000000006.010",
+                        "total_price": "00000000006.010",
+                        "promotional_relative_discount": "00000000000.000",
+                        "total_discount": "00000000000.000"
+                    },
+                    {
+                        "market_system_code": "95678",
+                        "bar_code": "07896010400861",
+                        "amount": "00000000003.000",
+                        "price": "00000000010.050",
+                        "unitary_price_with_discount": "00000000010.050",
+                        "total_price": "00000000030.150",
+                        "promotional_relative_discount": "00000000000.000",
+                        "total_discount": "00000000000.000"
+                    }
+                ],
+                "payment_type_market_system_code": 1,
+                "subtotal": "00000000036.160",
+                "final_subtotal": "00000000036.160",
+                "subtotal_items_with_discount": "00000000036.160",
+                "total_price": "00000000046.160",
+                "total_discounts": "00000000000.000"
+            }
+        }
+    ]
+}
