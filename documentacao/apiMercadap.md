@@ -7,8 +7,9 @@ https://mercadapp.com.br/
 # 00001 Autenticação de sessão
 
 ## Rota 1.1
+##### Autenticar sessão
 
-        POST - {{base_url}}/oauth/token - Autenticar sessão
+        POST - {{base_url}}/oauth/token
 
 ### Headers
 
@@ -41,8 +42,9 @@ https://mercadapp.com.br/
 # 00002 Dados referentes a Venda
 
 ## Rota 2.1
+#####  Consulta de pedidos prontos para importar
 
-        GET - {{base_url}}/apicli/v2/orders - Consulta de pedidos prontos para importar
+        GET - {{base_url}}/apicli/v2/orders
 
 ### Headers
 
@@ -55,8 +57,9 @@ https://mercadapp.com.br/
     Retorno de JSON completo de todos os pedidos prontos a serem importados.
 
 ## Rota 2.2
+##### Envio do número do PDV para o Merconnect após o processamento do pedido pelo ERP (será usado para puxar o pedido em questão no caixa da loja)
 
-        PATCH - {{base_url}}/apicli/v2/orders/{{id}} - Envio do número do PDV para o Merconnect após o processamento do pedido pelo ERP (será usado para puxar o pedido em questão no caixa da loja)
+        PATCH - {{base_url}}/apicli/v2/orders/{{id}}
 
 ### Headers
 
@@ -78,8 +81,9 @@ https://mercadapp.com.br/
 # 00003 Envio de arquivos Batches
 
 ## Rota 3.1
+##### Atualização de dados dos produtos (preços, ofertas, estoques, etc)
 
-        POST - {{base_url}}/apicli/v2/batches - Atualização de dados dos produtos (preços, ofertas, estoques, etc)
+        POST - {{base_url}}/apicli/v2/batches
 
 ### Headers
 
