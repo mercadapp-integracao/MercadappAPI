@@ -58,6 +58,9 @@ Retorno de JSON completo de todos os pedidos prontos a serem importados.
 **Exemplo:**
 https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos
 
+Detalhamento dos campos: 
+
+
 ## Rota 2.2
 ##### - Envio do número do PDV para o Merconnect após o processamento do pedido pelo ERP (será usado para puxar o pedido em questão no caixa da loja)
 

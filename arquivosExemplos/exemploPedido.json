@@ -15,21 +15,21 @@
                 "number_of_times_sent_to_pdv": 0,
                 "client": {
                     "id": 933945,
-                    "phone_number": "85998034540",
+                    "phone_number": "85999999999",
                     "second_phone_number": "",
                     "email": "MERCADAPPTESTE@MERCADAPP.COM",
                     "preferences": "NAO SEPARAR TESTE MERCADAPP",
                     "state_registration": "",
                     "exempted_from_state_registration": true,
                     "name": "MERCADAPP TESTE",
-                    "cpf": "70657820008",
+                    "cpf": "99999999999",
                     "address": {
-                        "cep": "13900-262",
-                        "street": "RUA COMENDADOR GUIMARAE",
+                        "cep": "99999-999",
+                        "street": "RUA TESTE DO PEDIDO",
                         "number": "500",
                         "complement": "",
                         "neighborhood": "CENTRO",
-                        "city": "AMPARO",
+                        "city": "FORTALEZA",
                         "state": "SP",
                         "reference_spot": ""
                     }
