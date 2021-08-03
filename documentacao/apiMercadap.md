@@ -1,8 +1,7 @@
 [comentário]: # (Habilitar visualização em Markdown para ter uma melhor experiência)
 
-API de Integração Mercadapp
+# API de Integração Mercadapp
 
-https://mercadapp.com.br/
 
 # 00001 Autenticação de sessão
 
