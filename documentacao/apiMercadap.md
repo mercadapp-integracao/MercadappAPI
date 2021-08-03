@@ -19,7 +19,7 @@ https://mercadapp.com.br/
 ### Body - RAW
 
     {
-        "client_id":"bfbe465ba84cfd68eee3f03b1a84710e4fcd181a82c1a0210bdb33edb89854a3",
+        "client_id":"111111111111111aaaaaaaaaaaaBBBBBBBBBccccc22222",
         "grant_type":"password",
         "username": "****",
         "password": "****",
@@ -31,10 +31,10 @@ https://mercadapp.com.br/
 - JSON de autenticação de sessão do usuário, deve-se armazenar o valor do atributo access_token para que seja utilizado nas novas requisições.
 
         {
-            "access_token": "0e6038b067230ea84593ed52a8b4d9bdc1cca6a7882dda8af0b326e536aeffac",
+            "access_token": "00000000000aaaaaaaaaaaaaaaaaBBBBBBBBBBBB111111111111111111",
             "token_type": "Bearer",
             "expires_in": 3600,
-            "refresh_token": "8855d45eed27e4ac6e68d90ab11da33b39e34fc209755134b9a9a8798b58da29",
+            "refresh_token": "00000000000aaaaaaaaaaaaaaaaaBBBBBBBBBBBB22222222222222222",
             "scope": "api_cli",
             "created_at": 1620135135
         }
@@ -54,7 +54,10 @@ https://mercadapp.com.br/
 
 ### Responses
 
-    Retorno de JSON completo de todos os pedidos prontos a serem importados.
+    Retorno de JSON completo de todos os pedidos prontos a serem importados. 
+
+    **Exemplo:**
+    https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos
 
 ## Rota 2.2
 ##### - Envio do número do PDV para o Merconnect após o processamento do pedido pelo ERP (será usado para puxar o pedido em questão no caixa da loja)
