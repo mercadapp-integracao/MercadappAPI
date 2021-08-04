@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "1bc9a91b-7970-438b-a467-1e7f3bf610b3",
+		"name": "Postman_Mercadapp_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API",
+			"item": [
+				{
+					"name": "1.1 Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"client_id\":\"\",\n    \"grant_type\":\"password\",\n    \"username\": \"****\",\n    \"password\": \"****\",\n    \"scope\": \"api_cli\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/oauth/token",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"oauth",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2.1 Orders",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/apicli/v2/orders",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"apicli",
+								"v2",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2.2 Retornar numero PDV",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"order\": {\n\t\t\"pdv_number\": \"1234\",\n\t\t\"pdv_note\": \"Gerado com sucesso\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/apicli/v2/orders/00000",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"apicli",
+								"v2",
+								"orders",
+								"00000"
+							]
+						},
+						"description": "Envie um arquivo para atualização de preços ou estoque.\n\n# Parâmetros\n\n## `batch[attachment]`\nArquivo para processamento.\n\n## `batch[kind]`\nTipo do arquivo dentres as opções seguintes:\n\n- `csv_price`: atualizar preços\n- `csv_stock`: atualizar estoque"
+					},
+					"response": []
+				},
+				{
+					"name": "3.1 Enviar arquivo batch CSV",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "batch[kind]",
+									"value": "{{kind}}",
+									"type": "text"
+								},
+								{
+									"key": "batch[attachment]",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/apicli/v2/batches",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"apicli",
+								"v2",
+								"batches"
+							]
+						},
+						"description": "Envie um arquivo para atualização de preços ou estoque.\n\n# Parâmetros\n\n## `batch[attachment]`\nArquivo para processamento.\n\n## `batch[kind]`\nTipo do arquivo dentres as opções seguintes:\n\n- `csv_price`: atualizar preços\n- `csv_stock`: atualizar estoque"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
