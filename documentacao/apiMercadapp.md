@@ -55,11 +55,13 @@
 
 Retorno de JSON completo de todos os pedidos prontos a serem importados. 
 
-**Exemplo:**
+**Exemplo:** exemploPedido.json
+
 https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos
 
-Detalhamento dos campos: 
+**Detalhamento dos campos:**
 
+https://github.com/mercadapp-integracao/MercadappAPI/blob/main/arquivosExemplos/camposPedido.md
 
 ## Rota 2.2
 ##### - Envio do número do PDV para o Merconnect após o processamento do pedido pelo ERP (será usado para puxar o pedido em questão no caixa da loja)
@@ -121,14 +123,6 @@ Cada tipo de CSV tem que seguir um padrão de cabeçalho e dados, segue abaixo c
         Preço deve ter o valor dos centavos em duas casas decimais, separados por “.” e
         não deve conter zeros a esquerda.
         Código interno do produto sem caracteres adicionais.
-        
-        Exemplo de Arquivo:
-
-        codigo_de_barras,preço,market_system_code
-        78928503,11.45,12452
-        7896014192922,8.99,1104
-        420,16.90,13759
-        437,31.90,11048
 
 - **csv_stock**
 
@@ -141,14 +135,6 @@ Cada tipo de CSV tem que seguir um padrão de cabeçalho e dados, segue abaixo c
         adicionais.
         Estoque deve ter gramaturas em até três casas decimais, separadas por “.” e não
         deve conter zeros a esquerda.
-        
-        Exemplo de Arquivo:
-
-        codigo_de_barras,estoque
-        7891150038578,3
-        7891150038585,3
-        4529,0
-        4531,0
 
 - **csv_offer_schedule**
 
@@ -163,14 +149,6 @@ Cada tipo de CSV tem que seguir um padrão de cabeçalho e dados, segue abaixo c
         por “.” e não deve conter zeros a esquerda.
         As datas devem ser dispostas no formato Ano-Mês-Dia. Ex: 31 de janeiro de 2018
         ficaria 2018-01-31.
-        
-        Exemplo de Arquivo:
-
-        codigo_de_barras,oferta,data_inicio,data_fim
-        7891152301168,5.59,2019-01-15,2019-02-28
-        7891152300116,4.19,2019-01-15,2019-02-28
-        7500435115353,25.89,2019-01-15,2019-02-28
-        7891152222081,6.99,2019-01-15,2019-02-28 
 
 - **csv_club_offer_schedule**
 
@@ -185,14 +163,6 @@ Cada tipo de CSV tem que seguir um padrão de cabeçalho e dados, segue abaixo c
         por “.” e não deve conter zeros a esquerda.
         As datas devem ser dispostas no formato Ano-Mês-Dia. Ex: 31 de janeiro de 2018
         ficaria 2018-01-31.
-        
-        Exemplo de Arquivo:
-
-        codigo_de_barras,oferta,data_inicio,data_fim
-        7891152301168,5.59,2019-01-15,2019-02-28
-        7891152300116,4.19,2019-01-15,2019-02-28
-        7500435115353,25.89,2019-01-15,2019-02-28
-        7891152222081,6.99,2019-01-15,2019-02-28 
 
 - **csv_create_products**
 
@@ -203,11 +173,7 @@ Cada tipo de CSV tem que seguir um padrão de cabeçalho e dados, segue abaixo c
         Padronizações: Código de barras não deve conter zeros a esquerda nem quaisquer caracteres adicionais. 
         Descrição completa do produto
         
-        Exemplo de Arquivo:
+**No link abaixo tem exemplos dos arquivos como devem ser formatados:**
 
-        codigo_de_barras,descricao
-        7896108300165,MOLHO INGLES REGINA GF 500ML
-        7898200380069,MANTEIGA VALEMILK COM SAL 500G
-        
-**Obs.:** Por padrão, arquivos CSV enviados com mais de 15000 linhas só serão processados entre 22h00 e 06h00 da manhã, para garantir um alto nível de estabilidade da ferramenta.
+https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos
 
