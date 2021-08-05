@@ -1,4 +1,4 @@
-# Informações Importantes
+<h1 align="center">Informações Importantes</h1>
 
 Baseado em nossas experiências e com o intuito de manter a ferramenta sempre com um processamento satisfatório, estaremos listando algumas recomendações que colhemos ao longo das nossas integrações realizadas.
 
@@ -37,3 +37,7 @@ Baseado em nossas experiências e com o intuito de manter a ferramenta sempre co
 ## Sobre a Consulta de Pedidos
 
 Por padrão recomendamos realizar a consulta se tem novos pedidos a cada 5 minutos iniciando a partir do horário que a loja abre, até o horário que a loja fecha.
+
+---
+
+[:house:](https://github.com/mercadapp-integracao/MercadappAPI)
