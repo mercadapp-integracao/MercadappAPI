@@ -3,7 +3,7 @@
 ### Bem vindo a Mercadapp! :orange_book:
 
 ## Para saber mais sobre nós acesse:
-[Mercadapp](https://mercadapp.com.br/)
+:point_right:	[Mercadapp](https://mercadapp.com.br/)
 
 ## Vai realizar integração com a gente continue abaixo :point_down:
 
@@ -24,7 +24,7 @@ Neste tipo de integração disponibilizamos via **API** os dados dos pedidos ger
 
 **Os processos são descritos em nossa documentação:**
 
-[DOCUMENTAÇÃO](https://github.com/mercadapp-integracao/MercadappAPI/blob/main/documentacao/apiMercadapp.md)
+:point_right:	[DOCUMENTAÇÃO](https://github.com/mercadapp-integracao/MercadappAPI/blob/main/documentacao/apiMercadapp.md)
 
 Caso esteja com dúvidas referente ao consumo de nossas APIs procure os nossos analistas atráves dos contatos enviados por sua loja.
 
@@ -32,12 +32,12 @@ Caso esteja com dúvidas referente ao consumo de nossas APIs procure os nossos a
 
 Nesta pasta você econtrará arquivos com **exemplos de CSVs** e do response dos pedidos:
 
-[ARQUIVOS DE EXEMPLOS](https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos)
+:point_right:	[ARQUIVOS DE EXEMPLOS](https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos)
 
 #### Collection para auxiliar na integração: :handshake:
 
-[COLLECTION](https://github.com/mercadapp-integracao/MercadappAPI/tree/main/collection)
+:point_right:	[COLLECTION](https://github.com/mercadapp-integracao/MercadappAPI/tree/main/collection)
 
 #### Mais algumas informações importantes: :pencil:
 
-[MAIS INFOS IMPORTANTES](https://github.com/mercadapp-integracao/MercadappAPI/blob/main/arquivosExemplos/infosImportantes.md)
+:point_right:	[MAIS INFOS IMPORTANTES](https://github.com/mercadapp-integracao/MercadappAPI/blob/main/arquivosExemplos/infosImportantes.md)
