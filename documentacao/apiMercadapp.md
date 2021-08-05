@@ -36,6 +36,8 @@
             "created_at": 1620135135
         }
 
+**Obs.:** o access_token gerado pode ser utilizado pelo período de uma hora, após esse tempo deve ser gerado um novo.
+
 # 00002 Dados referentes a Venda (Utilizado para PDV)
 
 ## Rota 2.1
