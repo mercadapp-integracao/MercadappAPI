@@ -1,4 +1,4 @@
-# MercadappAPI
+<h1 align="center">MercadappAPI<h1>
 
 ### Bem vindo a Mercadapp! :orange_book:
 
