@@ -56,11 +56,11 @@ Retorno de JSON completo de todos os pedidos prontos a serem importados.
 
 **Exemplo:** exemploPedido.json
 
-[ARQUIVOS DE EXEMPLO](https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos)
+:point_right: [ARQUIVOS DE EXEMPLO](https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos)
 
 **Detalhamento dos campos:**
 
-[PEDIDO DETALHADO](https://github.com/mercadapp-integracao/MercadappAPI/blob/main/arquivosExemplos/camposPedido.md)
+:point_right: [PEDIDO DETALHADO](https://github.com/mercadapp-integracao/MercadappAPI/blob/main/arquivosExemplos/camposPedido.md)
 
 ## Rota 2.2
 ##### - Envio do número do PDV para o Merconnect após o processamento do pedido pelo ERP (será usado para puxar o pedido em questão no caixa da loja)
@@ -174,9 +174,9 @@ Cada tipo de CSV tem que seguir um padrão de cabeçalho e dados, segue abaixo c
         
 **No link abaixo tem exemplos dos arquivos como devem ser formatados:**
 
-[ARQUIVOS DE EXEMPLO](https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos)
+:point_right: [ARQUIVOS DE EXEMPLO](https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos)
 
 ---
 
-[:house:](https://github.com/mercadapp-integracao/MercadappAPI)
+:point_right: [:house:](https://github.com/mercadapp-integracao/MercadappAPI)
 
