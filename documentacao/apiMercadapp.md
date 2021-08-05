@@ -1,9 +1,7 @@
-[comentário]: # (Habilitar visualização em Markdown para ter uma melhor experiência)
-
 # API de Integração Mercadapp
 
 
-# 00001 Autenticação de sessão
+# 00001 Autenticação de sessão (Utilizado para Retaguarda e PDV)
 
 ## Rota 1.1
 ##### - Autenticar sessão
@@ -18,10 +16,10 @@
 ### Body - RAW
 
     {
-        "client_id":"111111111111111aaaaaaaaaaaaBBBBBBBBBccccc22222",
+        "client_id":"111111111111111aaaaaaaaaaaaBBBBBBBBBccccc22222",   //Solicitar a Mercadapp
         "grant_type":"password",
-        "username": "****",
-        "password": "****",
+        "username": "****",                                             //Solicitar a Mercadapp
+        "password": "****",                                             //Solicitar a Mercadapp
         "scope": "api_cli"
     }
 
@@ -38,7 +36,7 @@
             "created_at": 1620135135
         }
 
-# 00002 Dados referentes a Venda
+# 00002 Dados referentes a Venda (Utilizado para PDV)
 
 ## Rota 2.1
 ##### - Consulta de pedidos prontos para importar
@@ -85,7 +83,7 @@ https://github.com/mercadapp-integracao/MercadappAPI/blob/main/arquivosExemplos/
             }
         }
 
-# 00003 Envio de arquivos Batches
+# 00003 Envio de arquivos Batches (Utilizado para Retaguarda)
 
 ## Rota 3.1
 ##### - Atualização de dados dos produtos (preços, ofertas, estoques, etc)
