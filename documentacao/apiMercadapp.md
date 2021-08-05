@@ -1,5 +1,4 @@
-# API de Integração Mercadapp
-
+<h1 align="center"> API de Integração Mercadapp </h1>
 
 # 00001 Autenticação de sessão (Utilizado para Retaguarda e PDV)
 
@@ -176,4 +175,8 @@ Cada tipo de CSV tem que seguir um padrão de cabeçalho e dados, segue abaixo c
 **No link abaixo tem exemplos dos arquivos como devem ser formatados:**
 
 [ARQUIVOS DE EXEMPLO](https://github.com/mercadapp-integracao/MercadappAPI/tree/main/arquivosExemplos)
+
+---
+
+[:house:](https://github.com/mercadapp-integracao/MercadappAPI)
 
