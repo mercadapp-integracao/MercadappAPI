@@ -40,4 +40,4 @@ Por padrão recomendamos realizar a consulta se tem novos pedidos a cada 5 minut
 
 ---
 
-[:house:](https://github.com/mercadapp-integracao/MercadappAPI)
+:point_right:	[:house:](https://github.com/mercadapp-integracao/MercadappAPI)
