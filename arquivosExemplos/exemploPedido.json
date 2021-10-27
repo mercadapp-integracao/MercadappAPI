@@ -13,6 +13,9 @@
                 "delivered_at": "01/05/2021",
                 "created_at": "30/04/2021 15:02:29",
                 "number_of_times_sent_to_pdv": 0,
+                "is_online_buy": false,
+                "payment_type_description": "Pagamento na entrega - Dinheiro",
+                "cash_change": 150.0,
                 "client": {
                     "id": 933945,
                     "phone_number": "85999999999",

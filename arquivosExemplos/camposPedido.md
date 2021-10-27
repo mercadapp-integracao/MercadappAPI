@@ -15,6 +15,9 @@
                         "delivered_at": "01/05/2021",                           // data de entrega
                         "created_at": "30/04/2021 15:02:29",                    // data da criação do pedido
                         "number_of_times_sent_to_pdv": 0,                       // tentativas de envio para o pdv
+                        "is_online_buy": false,                                 // Se é Online
+                        "payment_type_description": "Pagamento na entrega - Dinheiro", // Descrição do tipo de pagamento
+                        "cash_change": 150.0,                                   // "Troco para", quando dinheiro
                         "client": {                                             // dados do cliente    
                             "id": 933945,                                           // id do cliente no merconnect
                             "phone_number": "85999999999",                          // número de telefone do cliente
